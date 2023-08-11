@@ -1,0 +1,13 @@
+<mat-card>
+  <mat-card-content>
+    <mat-label>
+      <h2>
+        Short Url
+        <a href="{{originalUrl}}" target="_blank">http://127.0.0.1:8080/url/v1/{{shortUrl}}</a>
+        <button mat-icon-button matTooltip="Basic" aria-label="Example icon-button with a link icon" cdkCopyToClipboard="{{'http://127.0.0.1:8080/url/v1/'+shortUrl}}">
+          <mat-icon>link</mat-icon>
+        </button>
+      </h2>
+  </mat-label>
+  </mat-card-content>
+</mat-card>
